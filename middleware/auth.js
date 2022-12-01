@@ -28,6 +28,9 @@ export const auth = async (req, res, next) => {
         case "ashresponses":
             role = "ashadmin";
             break;
+        case "meresponses":
+            dept = "me";
+            break;
         case "commresponses":
             role = "commadmin";
             break;
