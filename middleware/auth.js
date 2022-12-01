@@ -29,7 +29,7 @@ export const auth = async (req, res, next) => {
             role = "ashadmin";
             break;
         case "meresponses":
-            dept = "me";
+            role = "meadmin";
             break;
         case "commresponses":
             role = "commadmin";
